@@ -1,0 +1,2 @@
+RewriteCond &#37;{REMOTE_ADDR} !127\\.0\\.0\\.1$
+RewriteRule .? - [F,L]
